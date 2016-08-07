@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C56E024D1D0D546C00ACEB44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56E024C1D0D546C00ACEB44 /* AppDelegate.swift */; };
+		C56E024F1D0D546C00ACEB44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56E024E1D0D546C00ACEB44 /* ViewController.swift */; };
+		C56E02521D0D546C00ACEB44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C56E02501D0D546C00ACEB44 /* Main.storyboard */; };
+		C56E02541D0D546C00ACEB44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C56E02531D0D546C00ACEB44 /* Assets.xcassets */; };
+		C56E02571D0D546C00ACEB44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C56E02551D0D546C00ACEB44 /* LaunchScreen.storyboard */; };
+		C56E02621D0D546C00ACEB44 /* Janam_LiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56E02611D0D546C00ACEB44 /* Janam_LiveTests.swift */; };
+		C56E026D1D0D546C00ACEB44 /* Janam_LiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56E026C1D0D546C00ACEB44 /* Janam_LiveUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C56E025E1D0D546C00ACEB44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C56E02411D0D546C00ACEB44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C56E02481D0D546C00ACEB44;
+			remoteInfo = "Janam Live";
+		};
+		C56E02691D0D546C00ACEB44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C56E02411D0D546C00ACEB44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C56E02481D0D546C00ACEB44;
+			remoteInfo = "Janam Live";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C56E02491D0D546C00ACEB44 /* Janam Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Janam Live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56E024C1D0D546C00ACEB44 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C56E024E1D0D546C00ACEB44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C56E02511D0D546C00ACEB44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C56E02531D0D546C00ACEB44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C56E02561D0D546C00ACEB44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C56E02581D0D546C00ACEB44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C56E025D1D0D546C00ACEB44 /* Janam LiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Janam LiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56E02611D0D546C00ACEB44 /* Janam_LiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Janam_LiveTests.swift; sourceTree = "<group>"; };
+		C56E02631D0D546C00ACEB44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C56E02681D0D546C00ACEB44 /* Janam LiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Janam LiveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56E026C1D0D546C00ACEB44 /* Janam_LiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Janam_LiveUITests.swift; sourceTree = "<group>"; };
+		C56E026E1D0D546C00ACEB44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C56E02461D0D546C00ACEB44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56E025A1D0D546C00ACEB44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56E02651D0D546C00ACEB44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C56E02401D0D546C00ACEB44 = {
+			isa = PBXGroup;
+			children = (
+				C56E024B1D0D546C00ACEB44 /* Janam Live */,
+				C56E02601D0D546C00ACEB44 /* Janam LiveTests */,
+				C56E026B1D0D546C00ACEB44 /* Janam LiveUITests */,
+				C56E024A1D0D546C00ACEB44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C56E024A1D0D546C00ACEB44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C56E02491D0D546C00ACEB44 /* Janam Live.app */,
+				C56E025D1D0D546C00ACEB44 /* Janam LiveTests.xctest */,
+				C56E02681D0D546C00ACEB44 /* Janam LiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C56E024B1D0D546C00ACEB44 /* Janam Live */ = {
+			isa = PBXGroup;
+			children = (
+				C56E024C1D0D546C00ACEB44 /* AppDelegate.swift */,
+				C56E024E1D0D546C00ACEB44 /* ViewController.swift */,
+				C56E02501D0D546C00ACEB44 /* Main.storyboard */,
+				C56E02531D0D546C00ACEB44 /* Assets.xcassets */,
+				C56E02551D0D546C00ACEB44 /* LaunchScreen.storyboard */,
+				C56E02581D0D546C00ACEB44 /* Info.plist */,
+			);
+			path = "Janam Live";
+			sourceTree = "<group>";
+		};
+		C56E02601D0D546C00ACEB44 /* Janam LiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				C56E02611D0D546C00ACEB44 /* Janam_LiveTests.swift */,
+				C56E02631D0D546C00ACEB44 /* Info.plist */,
+			);
+			path = "Janam LiveTests";
+			sourceTree = "<group>";
+		};
+		C56E026B1D0D546C00ACEB44 /* Janam LiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C56E026C1D0D546C00ACEB44 /* Janam_LiveUITests.swift */,
+				C56E026E1D0D546C00ACEB44 /* Info.plist */,
+			);
+			path = "Janam LiveUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C56E02481D0D546C00ACEB44 /* Janam Live */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56E02711D0D546C00ACEB44 /* Build configuration list for PBXNativeTarget "Janam Live" */;
+			buildPhases = (
+				C56E02451D0D546C00ACEB44 /* Sources */,
+				C56E02461D0D546C00ACEB44 /* Frameworks */,
+				C56E02471D0D546C00ACEB44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Janam Live";
+			productName = "Janam Live";
+			productReference = C56E02491D0D546C00ACEB44 /* Janam Live.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C56E025C1D0D546C00ACEB44 /* Janam LiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56E02741D0D546C00ACEB44 /* Build configuration list for PBXNativeTarget "Janam LiveTests" */;
+			buildPhases = (
+				C56E02591D0D546C00ACEB44 /* Sources */,
+				C56E025A1D0D546C00ACEB44 /* Frameworks */,
+				C56E025B1D0D546C00ACEB44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C56E025F1D0D546C00ACEB44 /* PBXTargetDependency */,
+			);
+			name = "Janam LiveTests";
+			productName = "Janam LiveTests";
+			productReference = C56E025D1D0D546C00ACEB44 /* Janam LiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C56E02671D0D546C00ACEB44 /* Janam LiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56E02771D0D546C00ACEB44 /* Build configuration list for PBXNativeTarget "Janam LiveUITests" */;
+			buildPhases = (
+				C56E02641D0D546C00ACEB44 /* Sources */,
+				C56E02651D0D546C00ACEB44 /* Frameworks */,
+				C56E02661D0D546C00ACEB44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C56E026A1D0D546C00ACEB44 /* PBXTargetDependency */,
+			);
+			name = "Janam LiveUITests";
+			productName = "Janam LiveUITests";
+			productReference = C56E02681D0D546C00ACEB44 /* Janam LiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C56E02411D0D546C00ACEB44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alen John Abraham";
+				TargetAttributes = {
+					C56E02481D0D546C00ACEB44 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					C56E025C1D0D546C00ACEB44 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C56E02481D0D546C00ACEB44;
+					};
+					C56E02671D0D546C00ACEB44 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C56E02481D0D546C00ACEB44;
+					};
+				};
+			};
+			buildConfigurationList = C56E02441D0D546C00ACEB44 /* Build configuration list for PBXProject "Janam Live" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C56E02401D0D546C00ACEB44;
+			productRefGroup = C56E024A1D0D546C00ACEB44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C56E02481D0D546C00ACEB44 /* Janam Live */,
+				C56E025C1D0D546C00ACEB44 /* Janam LiveTests */,
+				C56E02671D0D546C00ACEB44 /* Janam LiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C56E02471D0D546C00ACEB44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56E02571D0D546C00ACEB44 /* LaunchScreen.storyboard in Resources */,
+				C56E02541D0D546C00ACEB44 /* Assets.xcassets in Resources */,
+				C56E02521D0D546C00ACEB44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56E025B1D0D546C00ACEB44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56E02661D0D546C00ACEB44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C56E02451D0D546C00ACEB44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56E024F1D0D546C00ACEB44 /* ViewController.swift in Sources */,
+				C56E024D1D0D546C00ACEB44 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56E02591D0D546C00ACEB44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56E02621D0D546C00ACEB44 /* Janam_LiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56E02641D0D546C00ACEB44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56E026D1D0D546C00ACEB44 /* Janam_LiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C56E025F1D0D546C00ACEB44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C56E02481D0D546C00ACEB44 /* Janam Live */;
+			targetProxy = C56E025E1D0D546C00ACEB44 /* PBXContainerItemProxy */;
+		};
+		C56E026A1D0D546C00ACEB44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C56E02481D0D546C00ACEB44 /* Janam Live */;
+			targetProxy = C56E02691D0D546C00ACEB44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C56E02501D0D546C00ACEB44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C56E02511D0D546C00ACEB44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C56E02551D0D546C00ACEB44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C56E02561D0D546C00ACEB44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C56E026F1D0D546C00ACEB44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C56E02701D0D546C00ACEB44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C56E02721D0D546C00ACEB44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Janam Live/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "codme.Janam-Live";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C56E02731D0D546C00ACEB44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Janam Live/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "codme.Janam-Live";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C56E02751D0D546C00ACEB44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Janam LiveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "codme.Janam-LiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Janam Live.app/Janam Live";
+			};
+			name = Debug;
+		};
+		C56E02761D0D546C00ACEB44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Janam LiveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "codme.Janam-LiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Janam Live.app/Janam Live";
+			};
+			name = Release;
+		};
+		C56E02781D0D546C00ACEB44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Janam LiveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "codme.Janam-LiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Janam Live";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C56E02791D0D546C00ACEB44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Janam LiveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "codme.Janam-LiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Janam Live";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C56E02441D0D546C00ACEB44 /* Build configuration list for PBXProject "Janam Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56E026F1D0D546C00ACEB44 /* Debug */,
+				C56E02701D0D546C00ACEB44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C56E02711D0D546C00ACEB44 /* Build configuration list for PBXNativeTarget "Janam Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56E02721D0D546C00ACEB44 /* Debug */,
+				C56E02731D0D546C00ACEB44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C56E02741D0D546C00ACEB44 /* Build configuration list for PBXNativeTarget "Janam LiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56E02751D0D546C00ACEB44 /* Debug */,
+				C56E02761D0D546C00ACEB44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C56E02771D0D546C00ACEB44 /* Build configuration list for PBXNativeTarget "Janam LiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56E02781D0D546C00ACEB44 /* Debug */,
+				C56E02791D0D546C00ACEB44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C56E02411D0D546C00ACEB44 /* Project object */;
+}

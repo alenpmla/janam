@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="qSx-ww-LOw">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Janam TV-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Janam_Live" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gO1-7c-dtD">
+                                <rect key="frame" x="10" y="276" width="300" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="lN0-u8-hLk"/>
+                                </constraints>
+                                <state key="normal" title="Play Low Quality" backgroundImage="btnbacklow"/>
+                                <connections>
+                                    <action selector="PlayLowQuality:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qzi-TD-YKX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="em1-Yx-DDZ">
+                                <rect key="frame" x="10" y="212" width="300" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="150-3Y-HF1"/>
+                                    <constraint firstAttribute="height" constant="44" id="ebH-O6-ANx"/>
+                                </constraints>
+                                <state key="normal" title="Play High Quality" backgroundImage="btnbacklow"/>
+                                <connections>
+                                    <action selector="HighQuality:" destination="BYZ-38-t0r" eventType="touchUpInside" id="COo-pe-1VI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8BG-Kb-qiL">
+                                <rect key="frame" x="10" y="343" width="300" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="RMa-V7-MCE"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="aro-5w-6fO"/>
+                                </constraints>
+                                <state key="normal" title="Play Medium Quality" backgroundImage="btnbacklow"/>
+                                <connections>
+                                    <action selector="playMediumQuality:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FjU-gb-08I"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Janam_TV_logo" translatesAutoresizingMaskIntoConstraints="NO" id="LZD-mm-HUS">
+                                <rect key="frame" x="0.0" y="499" width="320" height="61"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="LZD-mm-HUS" firstAttribute="top" secondItem="8BG-Kb-qiL" secondAttribute="bottom" constant="112" id="4LI-dA-GpZ"/>
+                            <constraint firstItem="em1-Yx-DDZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="5JY-dx-dsr"/>
+                            <constraint firstItem="8BG-Kb-qiL" firstAttribute="top" secondItem="gO1-7c-dtD" secondAttribute="bottom" constant="10" id="7aG-O2-rCa"/>
+                            <constraint firstItem="LZD-mm-HUS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C9G-6n-z9Q"/>
+                            <constraint firstItem="8BG-Kb-qiL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="CAI-VO-OMQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8BG-Kb-qiL" secondAttribute="trailing" constant="10" id="K05-N3-dFI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gO1-7c-dtD" secondAttribute="trailing" constant="10" id="Ks5-Em-qd8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LZD-mm-HUS" secondAttribute="bottom" constant="8" id="LYY-nE-KKG"/>
+                            <constraint firstItem="em1-Yx-DDZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N6v-Xh-cWd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LZD-mm-HUS" secondAttribute="trailing" constant="10" id="TSV-2j-o2c"/>
+                            <constraint firstItem="gO1-7c-dtD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="VLX-gK-osy"/>
+                            <constraint firstItem="gO1-7c-dtD" firstAttribute="top" secondItem="em1-Yx-DDZ" secondAttribute="bottom" constant="10" id="aX1-c5-2bp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="em1-Yx-DDZ" secondAttribute="trailing" constant="10" id="ccP-93-QDC"/>
+                            <constraint firstItem="gO1-7c-dtD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dUu-bn-9bJ"/>
+                            <constraint firstItem="gO1-7c-dtD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="prJ-rp-MIH"/>
+                            <constraint firstItem="8BG-Kb-qiL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pvm-1S-XdS"/>
+                            <constraint firstItem="LZD-mm-HUS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="zfd-Xr-aOQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Janam TV" id="bC8-Ko-pZa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="586" y="204"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gxW-4Y-ez9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qSx-ww-LOw" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DW4-t5-Lg3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="l9g-Lu-Q9o"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aq0-uZ-5n2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-190.40000000000001" y="32.186666666666667"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Janam_TV_logo" width="2000" height="800"/>
+        <image name="btnbacklow" width="556" height="90"/>
+    </resources>
+</document>
